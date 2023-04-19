@@ -3,6 +3,7 @@ const quoteText = document.getElementById("quote");
 const authorText = document.getElementById("author");
 const twitterBtn = document.getElementById("twitter");
 const newQuoteBtn = document.getElementById("new-quote");
+const loader = document.querySelector("span.loader");
 
 function loading() {
     loader.classList.remove("hide");
