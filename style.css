@@ -77,6 +77,10 @@ button:active {
     color: rgb(100, 156, 78);
 }
 
+.hide {
+    display: none;
+}
+
 @media screen and (max-width: 1000px) {
     .quote-container{
         margin: auto 10px;
